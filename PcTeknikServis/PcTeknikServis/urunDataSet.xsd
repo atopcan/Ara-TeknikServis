@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="urunDataSet" targetNamespace="http://tempuri.org/urunDataSet.xsd" xmlns:mstns="http://tempuri.org/urunDataSet.xsd" xmlns="http://tempuri.org/urunDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PcTeknikServis.Properties.Settings.GlobalReference.Default.dbConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="URUN_TABLETableAdapter" GeneratorDataComponentClassName="URUN_TABLETableAdapter" Name="URUN_TABLE" UserDataComponentName="URUN_TABLETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbConnectionString (Settings)" DbObjectName="db.dbo.URUN_TABLE" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Uid, MarkaAdi, UrunAdi, Uaciklama, Ustokmiktar, Ufiyat FROM dbo.URUN_TABLE</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Uid" DataSetColumn="Uid" />
+              <Mapping SourceColumn="MarkaAdi" DataSetColumn="MarkaAdi" />
+              <Mapping SourceColumn="UrunAdi" DataSetColumn="UrunAdi" />
+              <Mapping SourceColumn="Uaciklama" DataSetColumn="Uaciklama" />
+              <Mapping SourceColumn="Ustokmiktar" DataSetColumn="Ustokmiktar" />
+              <Mapping SourceColumn="Ufiyat" DataSetColumn="Ufiyat" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="urunDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="urunDataSet" msprop:Generator_UserDSName="urunDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="URUN_TABLE" msprop:Generator_TableClassName="URUN_TABLEDataTable" msprop:Generator_TableVarName="tableURUN_TABLE" msprop:Generator_TablePropName="URUN_TABLE" msprop:Generator_RowDeletingName="URUN_TABLERowDeleting" msprop:Generator_RowChangingName="URUN_TABLERowChanging" msprop:Generator_RowEvHandlerName="URUN_TABLERowChangeEventHandler" msprop:Generator_RowDeletedName="URUN_TABLERowDeleted" msprop:Generator_UserTableName="URUN_TABLE" msprop:Generator_RowChangedName="URUN_TABLERowChanged" msprop:Generator_RowEvArgName="URUN_TABLERowChangeEvent" msprop:Generator_RowClassName="URUN_TABLERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Uid" msprop:Generator_ColumnVarNameInTable="columnUid" msprop:Generator_ColumnPropNameInRow="Uid" msprop:Generator_ColumnPropNameInTable="UidColumn" msprop:Generator_UserColumnName="Uid" type="xs:int" />
+              <xs:element name="MarkaAdi" msprop:Generator_ColumnVarNameInTable="columnMarkaAdi" msprop:Generator_ColumnPropNameInRow="MarkaAdi" msprop:Generator_ColumnPropNameInTable="MarkaAdiColumn" msprop:Generator_UserColumnName="MarkaAdi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UrunAdi" msprop:Generator_ColumnVarNameInTable="columnUrunAdi" msprop:Generator_ColumnPropNameInRow="UrunAdi" msprop:Generator_ColumnPropNameInTable="UrunAdiColumn" msprop:Generator_UserColumnName="UrunAdi">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Uaciklama" msprop:Generator_ColumnVarNameInTable="columnUaciklama" msprop:Generator_ColumnPropNameInRow="Uaciklama" msprop:Generator_ColumnPropNameInTable="UaciklamaColumn" msprop:Generator_UserColumnName="Uaciklama">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ustokmiktar" msprop:Generator_ColumnVarNameInTable="columnUstokmiktar" msprop:Generator_ColumnPropNameInRow="Ustokmiktar" msprop:Generator_ColumnPropNameInTable="UstokmiktarColumn" msprop:Generator_UserColumnName="Ustokmiktar" type="xs:int" />
+              <xs:element name="Ufiyat" msprop:Generator_ColumnVarNameInTable="columnUfiyat" msprop:Generator_ColumnPropNameInRow="Ufiyat" msprop:Generator_ColumnPropNameInTable="UfiyatColumn" msprop:Generator_UserColumnName="Ufiyat" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:URUN_TABLE" />
+      <xs:field xpath="mstns:Uid" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="musDataSet" targetNamespace="http://tempuri.org/musDataSet.xsd" xmlns:mstns="http://tempuri.org/musDataSet.xsd" xmlns="http://tempuri.org/musDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PcTeknikServis.Properties.Settings.GlobalReference.Default.dbConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MUS_TABLETableAdapter" GeneratorDataComponentClassName="MUS_TABLETableAdapter" Name="MUS_TABLE" UserDataComponentName="MUS_TABLETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbConnectionString (Settings)" DbObjectName="db.dbo.MUS_TABLE" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Mid, Mad, Msoyad, Mtel, CinsiyetTanim, Memail, Madres FROM dbo.MUS_TABLE</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Mid" DataSetColumn="Mid" />
+              <Mapping SourceColumn="Mad" DataSetColumn="Mad" />
+              <Mapping SourceColumn="Msoyad" DataSetColumn="Msoyad" />
+              <Mapping SourceColumn="Mtel" DataSetColumn="Mtel" />
+              <Mapping SourceColumn="CinsiyetTanim" DataSetColumn="CinsiyetTanim" />
+              <Mapping SourceColumn="Memail" DataSetColumn="Memail" />
+              <Mapping SourceColumn="Madres" DataSetColumn="Madres" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="musDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="musDataSet" msprop:Generator_UserDSName="musDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MUS_TABLE" msprop:Generator_TableClassName="MUS_TABLEDataTable" msprop:Generator_TableVarName="tableMUS_TABLE" msprop:Generator_TablePropName="MUS_TABLE" msprop:Generator_RowDeletingName="MUS_TABLERowDeleting" msprop:Generator_RowChangingName="MUS_TABLERowChanging" msprop:Generator_RowEvHandlerName="MUS_TABLERowChangeEventHandler" msprop:Generator_RowDeletedName="MUS_TABLERowDeleted" msprop:Generator_UserTableName="MUS_TABLE" msprop:Generator_RowChangedName="MUS_TABLERowChanged" msprop:Generator_RowEvArgName="MUS_TABLERowChangeEvent" msprop:Generator_RowClassName="MUS_TABLERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mid" msprop:Generator_ColumnVarNameInTable="columnMid" msprop:Generator_ColumnPropNameInRow="Mid" msprop:Generator_ColumnPropNameInTable="MidColumn" msprop:Generator_UserColumnName="Mid" type="xs:int" />
+              <xs:element name="Mad" msprop:Generator_ColumnVarNameInTable="columnMad" msprop:Generator_ColumnPropNameInRow="Mad" msprop:Generator_ColumnPropNameInTable="MadColumn" msprop:Generator_UserColumnName="Mad">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Msoyad" msprop:Generator_ColumnVarNameInTable="columnMsoyad" msprop:Generator_ColumnPropNameInRow="Msoyad" msprop:Generator_ColumnPropNameInTable="MsoyadColumn" msprop:Generator_UserColumnName="Msoyad">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Mtel" msprop:Generator_ColumnVarNameInTable="columnMtel" msprop:Generator_ColumnPropNameInRow="Mtel" msprop:Generator_ColumnPropNameInTable="MtelColumn" msprop:Generator_UserColumnName="Mtel">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CinsiyetTanim" msprop:Generator_ColumnVarNameInTable="columnCinsiyetTanim" msprop:Generator_ColumnPropNameInRow="CinsiyetTanim" msprop:Generator_ColumnPropNameInTable="CinsiyetTanimColumn" msprop:Generator_UserColumnName="CinsiyetTanim">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Memail" msprop:Generator_ColumnVarNameInTable="columnMemail" msprop:Generator_ColumnPropNameInRow="Memail" msprop:Generator_ColumnPropNameInTable="MemailColumn" msprop:Generator_UserColumnName="Memail">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Madres" msprop:Generator_ColumnVarNameInTable="columnMadres" msprop:Generator_ColumnPropNameInRow="Madres" msprop:Generator_ColumnPropNameInTable="MadresColumn" msprop:Generator_UserColumnName="Madres" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MUS_TABLE" />
+      <xs:field xpath="mstns:Mid" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

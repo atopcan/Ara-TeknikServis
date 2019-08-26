@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="tamirDataSet" targetNamespace="http://tempuri.org/tamirDataSet.xsd" xmlns:mstns="http://tempuri.org/tamirDataSet.xsd" xmlns="http://tempuri.org/tamirDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PcTeknikServis.Properties.Settings.GlobalReference.Default.dbConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TAMIR_TABLETableAdapter" GeneratorDataComponentClassName="TAMIR_TABLETableAdapter" Name="TAMIR_TABLE" UserDataComponentName="TAMIR_TABLETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbConnectionString (Settings)" DbObjectName="db.dbo.TAMIR_TABLE" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Mad, Msoyad, Tarih, Sikayet, FTDid, Fid, Islem, Ucret, Ftipi, TeslimTarih FROM dbo.TAMIR_TABLE</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Mad" DataSetColumn="Mad" />
+              <Mapping SourceColumn="Msoyad" DataSetColumn="Msoyad" />
+              <Mapping SourceColumn="Tarih" DataSetColumn="Tarih" />
+              <Mapping SourceColumn="Sikayet" DataSetColumn="Sikayet" />
+              <Mapping SourceColumn="FTDid" DataSetColumn="FTDid" />
+              <Mapping SourceColumn="Fid" DataSetColumn="Fid" />
+              <Mapping SourceColumn="Islem" DataSetColumn="Islem" />
+              <Mapping SourceColumn="Ucret" DataSetColumn="Ucret" />
+              <Mapping SourceColumn="Ftipi" DataSetColumn="Ftipi" />
+              <Mapping SourceColumn="TeslimTarih" DataSetColumn="TeslimTarih" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="tamirDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="tamirDataSet" msprop:Generator_UserDSName="tamirDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TAMIR_TABLE" msprop:Generator_TableClassName="TAMIR_TABLEDataTable" msprop:Generator_TableVarName="tableTAMIR_TABLE" msprop:Generator_TablePropName="TAMIR_TABLE" msprop:Generator_RowDeletingName="TAMIR_TABLERowDeleting" msprop:Generator_RowChangingName="TAMIR_TABLERowChanging" msprop:Generator_RowEvHandlerName="TAMIR_TABLERowChangeEventHandler" msprop:Generator_RowDeletedName="TAMIR_TABLERowDeleted" msprop:Generator_UserTableName="TAMIR_TABLE" msprop:Generator_RowChangedName="TAMIR_TABLERowChanged" msprop:Generator_RowEvArgName="TAMIR_TABLERowChangeEvent" msprop:Generator_RowClassName="TAMIR_TABLERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mad" msprop:Generator_ColumnVarNameInTable="columnMad" msprop:Generator_ColumnPropNameInRow="Mad" msprop:Generator_ColumnPropNameInTable="MadColumn" msprop:Generator_UserColumnName="Mad">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Msoyad" msprop:Generator_ColumnVarNameInTable="columnMsoyad" msprop:Generator_ColumnPropNameInRow="Msoyad" msprop:Generator_ColumnPropNameInTable="MsoyadColumn" msprop:Generator_UserColumnName="Msoyad">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tarih" msprop:Generator_ColumnVarNameInTable="columnTarih" msprop:Generator_ColumnPropNameInRow="Tarih" msprop:Generator_ColumnPropNameInTable="TarihColumn" msprop:Generator_UserColumnName="Tarih" type="xs:dateTime" />
+              <xs:element name="Sikayet" msprop:Generator_ColumnVarNameInTable="columnSikayet" msprop:Generator_ColumnPropNameInRow="Sikayet" msprop:Generator_ColumnPropNameInTable="SikayetColumn" msprop:Generator_UserColumnName="Sikayet" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FTDid" msprop:Generator_ColumnVarNameInTable="columnFTDid" msprop:Generator_ColumnPropNameInRow="FTDid" msprop:Generator_ColumnPropNameInTable="FTDidColumn" msprop:Generator_UserColumnName="FTDid" type="xs:int" />
+              <xs:element name="Fid" msprop:Generator_ColumnVarNameInTable="columnFid" msprop:Generator_ColumnPropNameInRow="Fid" msprop:Generator_ColumnPropNameInTable="FidColumn" msprop:Generator_UserColumnName="Fid" type="xs:int" />
+              <xs:element name="Islem" msprop:Generator_ColumnVarNameInTable="columnIslem" msprop:Generator_ColumnPropNameInRow="Islem" msprop:Generator_ColumnPropNameInTable="IslemColumn" msprop:Generator_UserColumnName="Islem" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Ucret" msprop:Generator_ColumnVarNameInTable="columnUcret" msprop:Generator_ColumnPropNameInRow="Ucret" msprop:Generator_ColumnPropNameInTable="UcretColumn" msprop:Generator_UserColumnName="Ucret" type="xs:int" minOccurs="0" />
+              <xs:element name="Ftipi" msprop:Generator_ColumnVarNameInTable="columnFtipi" msprop:Generator_ColumnPropNameInRow="Ftipi" msprop:Generator_ColumnPropNameInTable="FtipiColumn" msprop:Generator_UserColumnName="Ftipi" type="xs:int" />
+              <xs:element name="TeslimTarih" msprop:Generator_ColumnVarNameInTable="columnTeslimTarih" msprop:Generator_ColumnPropNameInRow="TeslimTarih" msprop:Generator_ColumnPropNameInTable="TeslimTarihColumn" msprop:Generator_UserColumnName="TeslimTarih" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

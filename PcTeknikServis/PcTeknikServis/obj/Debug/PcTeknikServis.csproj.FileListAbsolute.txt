@@ -1,0 +1,80 @@
+c:\users\administrator\documents\visual studio 2015\Projects\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Giris.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Anapanel.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Satis.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Teknik.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Fatura.resources
+C:\Users\sony\Desktop\Projects\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.exe.config
+C:\Users\sony\Desktop\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.exe
+C:\Users\sony\Desktop\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.pdb
+C:\Users\sony\Desktop\Projects\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.exe
+C:\Users\sony\Desktop\Projects\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.pdb
+C:\Users\sony\Desktop\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.csprojResolveAssemblyReference.cache
+C:\Users\sony\Desktop\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Anapanel.resources
+C:\Users\sony\Desktop\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Fatura.resources
+C:\Users\sony\Desktop\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Giris.resources
+C:\Users\sony\Desktop\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Properties.Resources.resources
+C:\Users\sony\Desktop\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Satis.resources
+C:\Users\sony\Desktop\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Teknik.resources
+C:\Users\sony\Desktop\Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.csproj.GenerateResource.Cache
+C:\Users\sony\Desktop\Projects - Kopya\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.exe.config
+C:\Users\sony\Desktop\Projects - Kopya\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.exe
+C:\Users\sony\Desktop\Projects - Kopya\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.pdb
+C:\Users\sony\Desktop\Projects - Kopya\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.exe
+C:\Users\sony\Desktop\Projects - Kopya\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.csprojResolveAssemblyReference.cache
+C:\Users\sony\Desktop\Projects - Kopya\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Anapanel.resources
+C:\Users\sony\Desktop\Projects - Kopya\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Fatura.resources
+C:\Users\sony\Desktop\Projects - Kopya\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Giris.resources
+C:\Users\sony\Desktop\Projects - Kopya\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Properties.Resources.resources
+C:\Users\sony\Desktop\Projects - Kopya\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Satis.resources
+C:\Users\sony\Desktop\Projects - Kopya\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Teknik.resources
+C:\Users\sony\Desktop\Projects - Kopya\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.csproj.GenerateResource.Cache
+C:\Users\sony\Desktop\Projects - Kopya\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.pdb
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.exe.config
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.exe
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.pdb
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.exe
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.csprojResolveAssemblyReference.cache
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Anapanel.resources
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Fatura.resources
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Giris.resources
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Properties.Resources.resources
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Satis.resources
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Teknik.resources
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.csproj.GenerateResource.Cache
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor - Kopya (4)\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.exe.config
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor - Kopya (4)\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.exe
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor - Kopya (4)\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.pdb
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor - Kopya (4)\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.exe
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor - Kopya (4)\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.pdb
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor - Kopya (4)\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.csprojResolveAssemblyReference.cache
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor - Kopya (4)\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Anapanel.resources
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor - Kopya (4)\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Fatura.resources
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor - Kopya (4)\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Giris.resources
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor - Kopya (4)\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Properties.Resources.resources
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor - Kopya (4)\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Satis.resources
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor - Kopya (4)\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Teknik.resources
+C:\Users\sony\Desktop\Projects - Kopya-- çalışıyor - Kopya (4)\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.csproj.GenerateResource.Cache
+C:\Users\mons\Desktop\veritabanıproje\Projects - Kopya-- çalışıyor - Kopya (6) - Kopya\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.exe.config
+C:\Users\mons\Desktop\veritabanıproje\Projects - Kopya-- çalışıyor - Kopya (6) - Kopya\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.exe
+C:\Users\mons\Desktop\veritabanıproje\Projects - Kopya-- çalışıyor - Kopya (6) - Kopya\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.pdb
+C:\Users\Ali Topcan\Desktop\Oto Teknik Servis - Projects\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.exe.config
+C:\Users\Ali Topcan\Desktop\Oto Teknik Servis - Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.exe
+C:\Users\Ali Topcan\Desktop\Oto Teknik Servis - Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.pdb
+C:\Users\Ali Topcan\Desktop\Oto Teknik Servis - Projects\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.exe
+C:\Users\Ali Topcan\Desktop\Oto Teknik Servis - Projects\PcTeknikServis\PcTeknikServis\bin\Debug\PcTeknikServis.pdb
+C:\Users\Ali Topcan\Desktop\Oto Teknik Servis - Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.csprojResolveAssemblyReference.cache
+C:\Users\Ali Topcan\Desktop\Oto Teknik Servis - Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Anapanel.resources
+C:\Users\Ali Topcan\Desktop\Oto Teknik Servis - Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Fatura.resources
+C:\Users\Ali Topcan\Desktop\Oto Teknik Servis - Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Giris.resources
+C:\Users\Ali Topcan\Desktop\Oto Teknik Servis - Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Properties.Resources.resources
+C:\Users\Ali Topcan\Desktop\Oto Teknik Servis - Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Satis.resources
+C:\Users\Ali Topcan\Desktop\Oto Teknik Servis - Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.Teknik.resources
+C:\Users\Ali Topcan\Desktop\Oto Teknik Servis - Projects\PcTeknikServis\PcTeknikServis\obj\Debug\PcTeknikServis.csproj.GenerateResource.Cache
